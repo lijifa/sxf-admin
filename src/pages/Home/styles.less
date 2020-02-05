@@ -1,0 +1,244 @@
+@import '~antd/lib/style/themes/default.less';
+@import '~@/utils/utils.less';
+
+/*重点就是要在table上加border-collapse: collapse;这个样式，这个样式是合并边框模型的意思*/
+.detailTable {
+    border-collapse: collapse; width:100%;
+    th {
+        border: 1px solid #ccc;
+        height: 40px;
+        text-align: left;
+        padding-left: 10px;
+        background-color: #f8fbfb;
+    }
+    td {
+        border: 1px solid #ccc;
+        height: 40px;
+        padding-left: 10px;
+        text-align: left;
+        padding-left: 10px;
+    }
+}
+
+.detailTable2 {
+    border-collapse: collapse; width:50%;
+    th {
+        border: 1px solid #ccc;
+        width: 40%;
+        height: 40px;
+        text-align: left;
+        padding-left: 10px;
+        background-color: #f8fbfb;
+    }
+    td {
+        border: 1px solid #ccc;
+        height: 40px;
+        padding-left: 10px;
+        text-align: left;
+        padding-left: 10px;
+    }
+}
+
+.photo {
+    width: 70px;
+    height: 120px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.userInfo {
+    p.title {
+        margin-bottom: 10px;
+    }
+    p.content {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+}
+
+.indexTag {
+    padding: 5px;
+    border-bottom: 1px solid #efefef;
+}
+.indexTitle {
+    padding: 15px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid #efefef;
+}
+.indexContent {
+    padding: 15px 20px;
+}
+
+.unit {
+    font-size: 14px;
+}
+
+.eventBtn {
+    background: #e7f0f9;
+    text-align: center;
+    height: 40px;
+    font-size: 16px;
+    color: #1069c9;
+    border: 1px solid #1069c9;
+    border-radius: 2px;
+    line-height: 40px;
+    cursor: pointer;
+    width: 120px;
+}
+
+.quickBtnBlue {
+    border: 1px solid #1069c9;
+    text-align: center;
+    height: 40px;
+    font-size: 16px;
+    color: #1069c9;
+    border-radius: 2px;
+    line-height: 40px;
+    cursor: pointer;
+    width: 120px;   
+    margin: 0 20px 20px 10px;
+    float: left;
+}
+
+
+.quickBtnGreen {
+    border: 1px solid green;
+    text-align: center;
+    height: 40px;
+    font-size: 16px;
+    color: green;
+    border-radius: 2px;
+    line-height: 40px;
+    cursor: pointer;
+    width: 120px;   
+    margin: 0 20px 20px 10px;
+    float: left;
+}
+
+.quickBtnYellow {
+    border: 1px solid #ffa830;
+    text-align: center;
+    height: 40px;
+    font-size: 16px;
+    color: #ffa830;
+    border-radius: 2px;
+    line-height: 40px;
+    cursor: pointer;
+    width: 120px;
+    margin: 0 20px 20px 10px;
+    float: left;
+}
+
+.quickBtnPurple {
+    border: 1px solid #6e66dd;
+    text-align: center;
+    height: 40px;
+    font-size: 16px;
+    color: #6e66dd;
+    border-radius: 2px;
+    line-height: 40px;
+    cursor: pointer;
+    width: 120px;   
+    margin: 0 20px 20px 10px;
+    float: left;
+}
+
+.moneyTag {
+    background: #e7f0f9;
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+    color: #1069c9;
+    border: 1px solid #1069c9;
+    border-radius: 4px;
+    line-height: 60px;
+    margin: 10px;
+    cursor: pointer;
+}
+.moneyTagChoose {
+    background: #1069c9;
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+    color: #fff;
+    border: 1px solid #1069c9;
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: 60px;
+    margin: 10px;
+}
+
+.moneyTagDiy {
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    input {
+        height: 60px;
+        font-size: 20px;
+    }
+}
+
+.splitLine {
+    border-right: 1px solid #ececee;
+    padding-right: 10px;
+}
+
+.moneyTagRight {
+    padding: 10px 10px 10px 20px;
+    
+    div{
+        border-radius: 4px;
+        color: #fff;
+        background: #1069c9;
+        padding: 15px 15px 0;
+        p.title {
+            border-left: 4px solid #fff;
+            padding-left: 10px;
+            margin-bottom: 0;
+            font-weight: bold;
+        };
+        p.content {
+            text-align: center;
+            height: 105px;
+            font-size: 30px;
+            line-height: 80px;
+            margin-bottom: 0;
+        };
+        p.longcontent {
+            text-align: center;
+            height: 105px;
+            font-size: 20px;
+            line-height: 80px;
+            margin-bottom: 0;
+        };
+    };
+}
+
+.transferTable {
+    background: #fff;
+    line-height: 30px;
+    .title {
+        padding: 15px;
+        font-size: 18px;
+        border-bottom: 1px solid #ececec;
+    }
+
+    .rightTitle {
+        padding: 0 15px;
+        .leftText {
+            text-align: left;
+        }
+        .rightBtn {
+            text-align: right;
+        }
+    }
+
+    .search {
+        padding: 15px;
+    }
+}

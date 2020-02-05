@@ -1,0 +1,62 @@
+@import '~antd/lib/style/themes/default.less';
+@import '~@/utils/utils.less';
+
+/*重点就是要在table上加border-collapse: collapse;这个样式，这个样式是合并边框模型的意思*/
+.h3Title {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.detailTable {
+    border-collapse: collapse; width:100%;
+    th {
+        border: 1px solid #ccc;
+        height: 36px;
+        text-align: left;
+        padding-left: 10px;
+        background-color: #f8fbfb;
+    }
+    td {
+        border: 1px solid #ccc;
+        height: 36px;
+        padding-left: 10px;
+        text-align: left;
+    }
+}
+
+.detailTable2 {
+    border-collapse: collapse; width:50%;
+    th {
+        border: 1px solid #ccc;
+        width: 40%;
+        height: 36px;
+        text-align: left;
+        padding-left: 10px;
+        background-color: #f8fbfb;
+    }
+    td {
+        border: 1px solid #ccc;
+        height: 36px;
+        padding-left: 10px;
+        text-align: left;
+    }
+}
+.editFormItem {
+    :global {
+        .ant-form-item {
+            margin-bottom: 5px;
+        }
+    }
+}
+
+.photo {
+    width: 60px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.ant-drawer-body {
+    height: calc(100% - 55px);
+    overflow: auto;
+    padding: 24px 24px 0px 24px!important;
+}
