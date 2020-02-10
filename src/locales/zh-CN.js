@@ -58,6 +58,12 @@ export default {
   'menu.archives.mer.mpos': '商户终端管理',
   'menu.archives.mer.mposapply': '终端申请管理',
 
+  //商品模块（宗毅，这个新加的）
+  'menu.goods': '商品',
+  'menu.goods.goods': '商品管理',
+  'menu.goods.goods.material': '商品管理',
+  'menu.goods.goods.vgoods': '虚拟管理',
+
   //订单模块
   'menu.trade': '交易',
   'menu.trade.order': '交易管理',

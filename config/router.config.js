@@ -312,6 +312,47 @@ export default [
           },
         ],
       },
+
+      //商品模块（宗毅，这个根据zh-CH.js中新加的）
+      // 'menu.goods': '商品',
+      // 'menu.goods.goods.material': '商品管理',
+      // 'menu.goods.goods.vgoods': '虚拟管理',
+
+      // 商品 20001150477
+      {
+        path: '/goods',
+        name: 'goods',
+        icon: 'sys',
+        routes: [
+          // 商品管理菜单（第二级）
+          {
+            path: '/goods/goods',
+            name: 'goods',
+            //子菜单（第三级）
+            routes: [
+              // 原材料
+              {
+                path: '/goods/goods/material',
+                name: 'material',
+                component: './Goods/Goods/Material/index',
+              },
+              // 虚拟服务
+              {
+                path: '/goods/goods/vgoods',
+                name: 'vgoods',
+                component: './Goods/Goods/Vgoods/index',
+              },
+            ]
+          },
+          // 其他管理菜单（第二级）
+        ],
+      },
+
+
+
+
+
+
       {
         path: '/trade',
         name: 'trade',
